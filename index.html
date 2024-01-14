@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <label class="input_label">
+        Введите сумму:
+        <input type="number" id="number" />
+      </label>
+      <select id="currency" class="value_select">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="KZT">KZT</option>
+      </select>
+      <label class="input_label">
+        <b>KZT (tenge)</b>
+        <input type="text" id="KZT" disabled />
+      </label>
+      <label class="input_label">
+        <b>USD (dollar)</b>
+        <input type="text" id="USD" disabled />
+      </label>
+      <label class="input_label">
+        <b>EUR (euro)</b>
+        <input type="text" id="EUR" disabled />
+      </label>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
