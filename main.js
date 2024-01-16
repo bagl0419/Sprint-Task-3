@@ -31,3 +31,4 @@ function calcCurrency() {
 }
 
 input.addEventListener("input", calcCurrency);
+currency.addEventListener("change", calcCurrency);
